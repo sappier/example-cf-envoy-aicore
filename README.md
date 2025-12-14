@@ -4,7 +4,7 @@ This series shows how to access foundation models hosted on SAP AI Core through 
 
 SAP AI Core exposes models from multiple LLM providers, but its REST APIs don’t map 1-to-1 with most vendor SDKs. By inserting Envoy, we translate those calls automatically.
 
-## [Part 1: Connecting to OpenAI models](part1-openai)
+## [Part 1: Connecting to OpenAI models](https://blog.romk.eu/posts/envoy-aicore/openai/)
 
 - Route OpenAI SDK traffic through Envoy to SAP AI Core
 - Generate text with GPT and images with DALL-E
