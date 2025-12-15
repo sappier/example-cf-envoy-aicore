@@ -9,3 +9,10 @@ SAP AI Core exposes models from multiple LLM providers, but its REST APIs don’
 - Route OpenAI SDK traffic through Envoy to SAP AI Core
 - Generate text with GPT and images with DALL-E
 - Plug everything into [LibreChat](https://www.librechat.ai/) in under five minutes
+
+
+## [Part 2: Connecting to Anthropic models](https://blog.romk.eu/posts/envoy-aicore/anthropic/)
+
+- Add support for Anthropic models to the Envoy configuration
+- Use the Anthropic Python SDK to call the Sonnet-4.5 model hosted in AI Core
+- Configure and use with [Claude Code](https://claude.com/product/claude-code)
